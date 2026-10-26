@@ -1,0 +1,16 @@
+{
+  "name": "claude-code-data-explorer",
+  "owner": {
+    "name": "Ruben Van de Voorde"
+  },
+  "metadata": {
+    "description": "A pane that collects every table Claude Code runs into, to sort, filter, group and check"
+  },
+  "plugins": [
+    {
+      "name": "data-explorer",
+      "description": "Query results, data files and tables in command output, replies and messages, in a pane with sort, filter, grouping, data bars and copy",
+      "source": "./"
+    }
+  ]
+}

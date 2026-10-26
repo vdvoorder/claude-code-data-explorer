@@ -1,0 +1,31 @@
+{
+  "name": "data-explorer",
+  "version": "0.1.0",
+  "description": "Shows the tables Claude Code runs into (query results, CSV, JSON and Excel files, tables in command output, tool results, web pages, replies and your messages) in a pane with sort, filter, grouping, data bars and copy",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Ruben Van de Voorde"
+  },
+  "repository": "https://github.com/vdvoorder/claude-code-data-explorer",
+  "keywords": [
+    "data",
+    "table",
+    "csv",
+    "query",
+    "mod",
+    "pane"
+  ],
+  "userConfig": {
+    "open": {
+      "type": "string",
+      "title": "Open on a new table",
+      "description": "on: the Data pane opens when Claude runs a query or reads a data file; in the terminal it shows once the window is at least 144 columns wide. off: tables still collect in the pane, which opens only when you run /data-explorer or Claude shows a file with its show_file tool.",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    }
+  },
+  "license": "MIT"
+}
